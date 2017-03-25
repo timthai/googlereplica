@@ -191,3 +191,29 @@ a.button:hover {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+
+/***** Media Queries ****/
+
+@media (max-width: 760px) {
+  .search-box input {
+    width: 80%;
+  }
+}
+
+@media (max-width: 520px) {
+  .bottom-site-links {
+    display: none;
+  }
+}
+
+@media (max-width: 415px) {
+  .profile-img {
+    display: none;
+  }
+}
+
+@media (max-width: 364px) {
+  .share-button {
+    display: none;
+  }
+}
